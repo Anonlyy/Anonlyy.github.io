@@ -2,6 +2,9 @@
 title: 浅谈前后端开发中的MVVM开发模式
 date: 2018-01-17 10:00:21
 tags: 前端
+categories: 前端
+cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0012.png
+
 ---
 
 之前在我的博客也写过关于MVVM模式的简单介绍,但不够详细,也因为对 MVVM 模式一直只是模模糊糊的认识，现在就给大家讲一下详细讲下MVVM模式为何物.

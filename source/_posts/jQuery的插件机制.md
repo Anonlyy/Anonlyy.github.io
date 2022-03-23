@@ -2,6 +2,9 @@
 title: jQuery的插件机制
 date: 2017-10-24 16:05:52
 tags: 前端
+categories: 前端
+cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0022.png
+
 ---
 
 ## jQuery框架现况分析和概述

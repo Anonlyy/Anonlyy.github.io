@@ -2,6 +2,9 @@
 title: PostCSS入门
 date: 2017-10-24 14:25:07
 tags: CSS
+categories: CSS
+cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0024.png
+
 ---
 
 ## 概述

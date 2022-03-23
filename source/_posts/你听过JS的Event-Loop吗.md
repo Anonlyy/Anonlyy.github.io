@@ -3,6 +3,8 @@
 title: 你听过JS的Event Loop吗
 date: 2021-04-01 16:38:21
 tags: JavaScript
+categories: JavaScript
+cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/001.png
 ---
 
 ## 前言
