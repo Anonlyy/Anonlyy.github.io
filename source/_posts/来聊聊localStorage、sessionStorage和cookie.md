@@ -1,7 +1,7 @@
 ---
 title: 来聊聊localStorage、sessionStorage和cookie
 date: 2017-10-24 15:27:14
-tags:
+tags: JavaScript
 ---
 首先当然还得是来介绍一下基本概念.
 ##	基本概念
@@ -44,11 +44,10 @@ tags:
 
 此外,HTML5在提供了`storage`事件,当键值改变或者clear的时候，就可以触发`storage`事件,相当于加了个监听事件,这也是`cookie`原生没有的.
 
+## 应用场景和总结
 
-##应用场景和总结
-
-我们的Storage API,可以用在**IM聊天记录**,**购物车**,**HTML5的游戏数据存储**,**内容多的表单**.
-并非说有了`localStorage`、`sessionStorage`,`cookie`就会被淘汰了,就目前的客户端(浏览器)使用而言,`cookie`的使用率仍然是非常高的,只是在某种特定的情况下呢,使用我们的webStorageAPI会更加方便好用,更快的解决问题.
+我们的`Storage API`,可以用在**IM聊天记录**,**购物车**,**HTML5的游戏数据存储**,**内容多的表单**.
+并非说有了`localStorage`、`sessionStorage`,`cookie`就会被淘汰了,就目前的客户端(浏览器)使用而言,`cookie`的使用率仍然是非常高的,只是在某种特定的情况下呢,使用我们的`webStorageAPI`会更加方便好用,更快的解决问题.
 
 
-此外,我们的`webStorageAPI`也仍存在一些局限,一个是兼容性问题,是不支持IE8以下的,还有一个是如果用户使用的是浏览器的隐身模式的话,是无法访问用`localStorage`存储下来的值的。
+此外,我们的`webStorageAPI`也仍存在一些局限,一个是兼容性问题,是不支持`IE8`以下的,还有一个是如果用户使用的是浏览器的隐身模式的话,是无法访问用`localStorage`存储下来的值的。

@@ -6,13 +6,19 @@
 title: Xposean's Blog
 subtitle: 做一个刚刚好的前端仔
 description: 做一个刚刚好的前端仔
+avatar: /img/avatar.png
 author: Xposean
-language: zh-CN
+language: zh-cn
 timezone:
+
+# Social Accounts
+weibo: 13592742070
+github: Anonlyy
+facebook: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xposean.xin
+url: https://blog.xposean.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -25,7 +31,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: about/full.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -38,11 +44,17 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
-  
+# 使用了codemirror替换了highlight.js，代码高亮更加完善，也更接近IDE的高亮样式
+# 默认已经填入了一些语言的mode支持，如果你需要其他语言的支持，请查看codemirror官网的mode
+# modes文档请看: https://codemirror.net/mode/
+# codemirror官网： https://codemirror.net/
+# 默认支持了：JS, HTML, CSS, PHP, JAVA, C, C#, C++, SHELL, PYTHON.
+codemirror:
+  modes: ['javascript', 'css', 'xml', 'htmlmixed', 'clike', 'php', 'shell', 'python']  
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -72,7 +84,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Material
+theme: obsidian
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -84,3 +96,44 @@ deploy:
 search:
 	path: search.xml
 	field: all
+
+
+archive_generator:
+  per_page: 0  
+  yearly: false
+  monthly: false
+  daily: false
+# pwa config
+# pwa:
+#   manifest:
+#   #   path: /manifest.json
+#   #   body:
+#   #     name: hexo
+#   #     short_name: hexo
+#   #     icons:
+#   #       - src: /images/android-chrome-192x192.png
+#   #         sizes: 192x192
+#   #         type: image/png
+#   #       - src: /images/android-chrome-512x512.png
+#   #         sizes: 512x512
+#   #         type: image/png
+#   #     start_url: /index.html
+#   #     theme_color: '#ffffff'
+#   #     background_color: '#ffffff'
+#   #     display: standalone
+#   serviceWorker:
+#     path: /sw.js
+#     preload:
+#       urls:
+#         - /
+#       posts: 5
+#     opts:
+#       networkTimeoutSeconds: 5
+#     routes:
+#       # - pattern: !!js/regexp /hm.baidu.com/
+#       #   strategy: networkOnly
+#       - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+#         strategy: cacheFirst
+#       - pattern: !!js/regexp /\//
+#         strategy: networkFirst
+#   priority: 5

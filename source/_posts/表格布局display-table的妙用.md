@@ -1,7 +1,7 @@
 ---
 title: '表格布局display:table的妙用'
 date: 2017-11-12 19:29:49
-tags:
+tags: CSS
 ---
 
 
@@ -32,26 +32,28 @@ tags:
 除了在兼容性更好和语义化程度更强之外,表格布局也继承了`table`标签的布局优势;
 
 ### 更简单的栅格布局
-	
-	<style>
-	  .box{
-	    border:1px solid #dedede;
-	    display:table;
-	    height: 300px;
-	    width: 100%;
-	  }  
-	  .box .item{
-	    border-right:1px solid #ccc;
-	    display:table-cell;
-	  }
-	</style>
-	<body>
-	  <div class="box">
-	    <div class="item">AA</div>
-	    <div class="item">BB</div>
-	    <div class="item">CC</div>
-	  </div>
-	</body>
+
+```html
+<style>
+  .box{
+    border:1px solid #dedede;
+    display:table;
+    height: 300px;
+    width: 100%;
+  }  
+  .box .item{
+    border-right:1px solid #ccc;
+    display:table-cell;
+  }
+</style>
+<body>
+  <div class="box">
+    <div class="item">AA</div>
+    <div class="item">BB</div>
+    <div class="item">CC</div>
+  </div>
+</body>
+```
 
 ![](https://i.imgur.com/Wwt9pcI.png)
 很轻松的就能够实现,一行多列的布局,而且自动根据`.item`元素个数计算`.item`的宽度,
