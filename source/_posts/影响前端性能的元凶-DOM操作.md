@@ -3,7 +3,7 @@ title: '影响前端性能的元凶:DOM操作'
 date: 2019-09-01 21:42:09
 tags: 前端
 categories: 前端
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0018.png
+cover: https://image.xposean.top/blogImage/0018.png
 feature: true
 
 

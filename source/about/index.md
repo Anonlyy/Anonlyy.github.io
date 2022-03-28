@@ -42,10 +42,10 @@ date: 2022-03-23 18:48:59
 
 `GVP`项目组成员, 小组主要负责 数据可视化产品: **敏捷BI平台**的前端页面开发.
 
-- 更换项目脚手架为 `vue-cli` 加快打包速度(3m53s=> 2m38s), 减少打包后的项目体积(35.4M => 28.7M)
-- 推动项目更换 `HTTP2`协议, 优化首屏加载时间
-- 封装虚拟列表组件, 极大程度的缓解了大量数据渲染时浏览器的卡顿问题
-- 完善前端需求交付流程, 增加交叉自测和`Merge Request`机制  
+- 更换项目脚手架为 `vue-cli` 加快打包速度(3m53s=> 2m38s), 减少打包后的项目体积(35.4M => 28.7M).
+- 推动项目更换 `HTTP2`协议, 优化首屏加载时间.
+- 封装虚拟列表组件, 极大程度的缓解了大量数据渲染时浏览器的卡顿问题.
+- 完善前端需求交付流程, 增加交叉自测和`Merge Request`机制.
 
 ### 天融信(上市公司)[2019.3~2021.6]
 
@@ -104,14 +104,13 @@ date: 2022-03-23 18:48:59
 - 配合 `Nodemailer `服务实现异常结果通知
 
 ### 技术文章(摘选)
-
-- [一文带你知晓HTTP/2](https://blog.xposean.top/2020/12/22/一文带你了解HTTP-2的优势/)
-- [你好, 请你解释一下浏览器缓存策略](https://blog.xposean.top/2021/01/15/你好-请你解释一下浏览器缓存策略/)
-- [HTTPS,没有你想的那么复杂](https://blog.xposean.top/2021/01/22/HTTPS-没有你想的那么复杂/)
-- [老生常谈的原型链](https://blog.xposean.top/2021/03/12/老生常谈的原型链/)
-- [团队项目优化之路](https://blog.xposean.top/2020/05/09/团队项目优化之路/)
-- [virtual DOM快在哪里?](https://blog.xposean.top/2019/09/05/浏览器渲染与Virtual-DOM相关/)
-- [影响前端性能的元凶:DOM操作](https://blog.xposean.top/2017/10/24/影响前端性能的元凶-DOM操作/) 
+- [一文带你知晓HTTP/2](https://blog.xposean.top/post/一文带你了解HTTP-2的优势)
+- [你好, 请你解释一下浏览器缓存策略](https://blog.xposean.top/post/你好-请你解释一下浏览器缓存策略)
+- [HTTPS,没有你想的那么复杂](https://blog.xposean.top/post/HTTPS-没有你想的那么复杂)
+- [老生常谈的原型链](https://blog.xposean.top/post/老生常谈的原型链)
+- [团队项目优化之路](https://blog.xposean.top/post/团队项目优化之路)
+- [virtual DOM快在哪里?](https://blog.xposean.top/post/浏览器渲染与Virtual-DOM相关)
+- [影响前端性能的元凶:DOM操作](https://blog.xposean.top/post/影响前端性能的元凶-DOM操作) 
 
 ## 技能清单
 

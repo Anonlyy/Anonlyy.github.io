@@ -3,7 +3,7 @@ title: 来聊聊优雅的Icon
 date: 2019-01-24 09:31:38
 tags: 前端
 categories: 前端
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/004.png
+cover: https://image.xposean.top/blogImage/004.png
 
 ---
 

@@ -3,7 +3,7 @@ title: 'MPA和SPA,你选哪一个'
 date: 2017-11-23 08:57:12
 tags: 前端
 categories: 前端
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0023.png
+cover: https://image.xposean.top/blogImage/0023.png
 
 ---
 

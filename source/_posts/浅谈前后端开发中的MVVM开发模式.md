@@ -3,7 +3,7 @@ title: 浅谈前后端开发中的MVVM开发模式
 date: 2018-01-17 10:00:21
 tags: 前端
 categories: 前端
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0012.png
+cover: https://image.xposean.top/blogImage/0012.png
 
 ---
 

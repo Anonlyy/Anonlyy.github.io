@@ -3,7 +3,7 @@ title: 来聊聊localStorage、sessionStorage和cookie
 date: 2017-10-24 15:27:14
 tags: JavaScript
 categories: JavaScript
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/005.png
+cover: https://image.xposean.top/blogImage/005.png
 
 ---
 首先当然还得是来介绍一下基本概念.

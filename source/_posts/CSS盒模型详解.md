@@ -3,7 +3,7 @@ title: CSS盒模型详解
 date: 2017-11-05 12:38:19
 tags: CSS
 categories: CSS
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0019.png
+cover: https://image.xposean.top/blogImage/0019.png
 
 ---
 

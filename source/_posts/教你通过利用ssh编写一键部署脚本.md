@@ -3,7 +3,7 @@ title: 教你通过利用ssh编写前端一键部署脚本
 date: 2020-05-19 19:21:17
 tags: 开发技巧
 categories: 开发技巧
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/003.png
+cover: https://image.xposean.top/blogImage/003.png
 
 ---
 

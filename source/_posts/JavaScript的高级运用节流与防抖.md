@@ -3,7 +3,7 @@ title: JavaScript的高级运用之节流与防抖
 date: 2018-05-17 09:33:34
 tags: JavaScript
 categories: JavaScript
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0021.png
+cover: https://image.xposean.top/blogImage/0021.png
 
 ---
 

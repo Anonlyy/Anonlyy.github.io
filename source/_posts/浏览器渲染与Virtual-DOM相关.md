@@ -3,7 +3,7 @@ title: 浏览器渲染与Virtual DOM相关
 date: 2019-09-05 15:41:20
 tags: 前端
 categories: 前端
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/007.png
+cover: https://image.xposean.top/blogImage/007.png
 
 ---
 ## 浏览器如何渲染页面

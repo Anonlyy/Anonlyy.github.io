@@ -4,7 +4,7 @@ date: 2020-12-22 10:41:40
 tags: 网络
 categories: 网络
 feature: true
-cover: https://cdn.jsdelivr.net/gh/Anonlyy/random-pic/0016.png
+cover: https://image.xposean.top/blogImage/0016.png
 
 ---
 
